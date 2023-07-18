@@ -11,6 +11,9 @@ app.get('/', (req, res) => {
 app.get('/fasih', (req, res) => {
     res.send('I m fasih ahmed server!')
   })
+  app.get('/fast', (req, res) => {
+    res.send('I m fast server!')
+  })
   
 
 app.listen(port, () => {
